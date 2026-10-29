@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="LoadoutBot" width="360">
+<img src="assets/banner.png" alt="LoadoutBot" width="820">
 
 ## Зрители заказывают технику. Ты просто играешь.
 
