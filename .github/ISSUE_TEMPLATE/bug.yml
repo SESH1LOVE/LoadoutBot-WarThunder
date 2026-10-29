@@ -1,0 +1,28 @@
+name: Ошибка
+description: Что-то не работает или работает не так
+title: "Ошибка: "
+labels: ["ошибка"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Не вставляйте ключи DonationAlerts/DonatePay, содержимое secrets.json, ссылки Stream Deck с `?token=` и почту.**
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      description: Что делали, что ожидали, что получилось. Скриншот очень помогает.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия бота
+      description: В правом верхнем углу панели
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows
+      options: ["Windows 11", "Windows 10", "Другое"]

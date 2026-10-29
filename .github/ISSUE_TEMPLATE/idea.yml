@@ -1,0 +1,12 @@
+name: Идея
+description: Чего не хватает на ваших стримах
+title: "Идея: "
+labels: ["идея"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Что хотелось бы
+      description: Опишите, как это выглядело бы на стриме и зачем оно вам.
+    validations:
+      required: true

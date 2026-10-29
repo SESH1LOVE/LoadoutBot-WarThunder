@@ -1,0 +1,35 @@
+name: Бот не понял донат
+description: Пришлите текст доната, который бот понял неправильно или не понял совсем — он станет новым тестом
+title: "Донат: "
+labels: ["донат"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо! Каждый такой донат делает бота умнее у всех стримеров.
+        **Не присылайте настоящие ники зрителей** — только текст доната.
+  - type: input
+    id: text
+    attributes:
+      label: Текст доната
+      placeholder: "закажу ьшп 21 пфм на 3 фрага"
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: Какую машину имели в виду
+      placeholder: "МиГ-21ПФМ"
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: Что сделал бот
+      placeholder: "Отправил «На проверку» / выбрал МиГ-21С / посчитал обычным донатом"
+  - type: input
+    id: version
+    attributes:
+      label: Версия бота
+      description: В правом верхнем углу панели
+      placeholder: "2.11.1"

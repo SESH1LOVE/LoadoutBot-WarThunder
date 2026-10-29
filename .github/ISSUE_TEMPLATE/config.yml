@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Вопрос по оплате Pro
+    url: https://loadoutbot.ru/?utm_source=github&utm_medium=issues
+    about: Пишите на loadoutbot.help@yandex.ru — в публичные обращения платёжные данные не нужны.
+  - name: Отзыв анонимно
+    url: https://forms.yandex.ru/u/6ac00e09068ff0e814f91bb5/
+    about: Короткая форма без аккаунта GitHub.
