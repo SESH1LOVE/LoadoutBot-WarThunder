@@ -140,6 +140,8 @@ https://github.com/SESH1LOVE/LoadoutBot-WarThunder
 - 📖 [Как я сделал бота, который сам ведёт заказы техники](docs/articles/istoriya.md) — история
 - 🔬 [«ьшп 21 пфм»: как бот понимает, на какой технике просят сыграть](docs/articles/kak-bot-ponimaet-donaty.md) — техническая статья
 - 🛠️ [Установка и настройка](docs/ustanovka.md)
+- 💸 [Как настроить DonationAlerts в OBS](docs/donationalerts-obs.md) — шпаргалка и что делать, если донат не видно на стриме
+- 📺 [Бесплатный оверлей очереди для OBS](docs/overlay-ocheredi-obs.md) — что показывать, где разместить, как добавить
 
 ---
 
